@@ -1,0 +1,17 @@
+html, body{
+    height: 100%;
+}
+
+header{
+
+    height: 20%;
+    border: black solid;
+    display: flex;
+    background-color: #219F94;
+    align-items: center;
+    justify-content: flex-start;
+}
+    a{
+        width: 10%;
+        color: white;
+    }
