@@ -6,12 +6,37 @@ header{
 
     height: 20%;
     border: black solid;
-    display: flex;
     background-color: #219F94;
-    align-items: center;
-    justify-content: flex-start;
+    display: flex;
 }
-    a{
-        width: 10%;
-        color: white;
+
+    .caixa-links{
+       
+        height: 30%;
+        width:12%;
+        
     }
+        #logo-home{
+            height: 105%;
+            position: relative;
+            top: 5%;
+        }
+
+        #link-home{
+            color: white;
+            position: relative;
+            bottom: 12%;
+        }
+
+
+        #calendario-logo{
+            height: 120%;
+        }
+
+        #link-agendamento{
+            width: 10%;
+            position: relative;
+            bottom: 50%;
+            color: white;
+        }
+ 
