@@ -4,39 +4,54 @@ html, body{
 
 header{
 
-    height: 20%;
-    border: black solid;
-    background-color: #219F94;
+    height: 15%;
+    border-top: white solid;
+    background-color: #8c52ff;
     display: flex;
+    border-bottom: #8c52ff solid;
 }
 
-    .caixa-links{
-       
-        height: 30%;
-        width:12%;
-        
+    #titulo-site{
+        color: white;
+        height: 80%;
+        font-size: 200%;
+        margin-top: 2%;
     }
-        #logo-home{
-            height: 105%;
-            position: relative;
-            top: 5%;
+    #menu-navegacao {
+        position: relative;
+        left: 10%;
+        width: 65%;
+        display: flex;
+    }
+        #ul-nav{
+            width: 100%;
+            display: flex;
+            
         }
+           
+            .li-nav {
+                width: 168%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
 
-        #link-home{
-            color: white;
-            position: relative;
-            bottom: 12%;
-        }
 
 
-        #calendario-logo{
-            height: 120%;
-        }
+                .link-paginas{
+                    font-size: 150%;
+                    color: white;
+                    text-decoration: none;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    width: 50%;
+                    justify-content: center;
+                }
 
-        #link-agendamento{
-            width: 10%;
-            position: relative;
-            bottom: 50%;
-            color: white;
-        }
- 
+                .link-paginas:hover{
+                    color: #8c52ff;
+                    background-color: white;
+                }
+            
